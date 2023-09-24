@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FP Based Estimation</title>
+    <link rel="stylesheet" href="r.css">
+</head>
+
+<body>
+    <h1 style="color:blue"><center>FP BASED ESTIMATION</center></h1>
+
+    <div id="inputsDiv">
+        <h2>Give Inputs Here</h2>
+
+        <!-- Element inputs -->
+        <div id="elementInputs">
+            <!-- Element input fields will be dynamically added here -->
+        </div>
+
+        <!-- Productivity and Labour rate inputs -->
+        <div id="ratesDiv">
+            <label for="productivityRate"><b>Productivity Rate:</b></label>
+            <input type="number" id="productivityRate" required><br><br>
+
+            <label for="labourRate"><b>Labour Rate:</b></label>
+            <input type="number" id="labourRate" required><br><br>
+        </div>
+
+        <button onclick="calculate()">Calculate</button>
+    </div>
+
+    <div id="resultsDiv" style="display: none;">
+        <h2>Results</h2>
+        <div id="resultsContent">
+            <!-- Results will appear here -->
+        </div>
+    </div>
+
+    <script src="ript.js"></script>
+</body>
+
+</html>
